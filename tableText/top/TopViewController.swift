@@ -17,12 +17,17 @@ class TopViewController: BaseViewController {
 
 // MARK: - Life cycle
 extension TopViewController {
-    
+    override func loadView() {
+        super.loadView()
+        topMainView.delegate = self
+    }
 }
 
 // MARK: - Protocol
-extension TopViewController {
-    
+extension TopViewController: TopMainViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("tableView tapped")
+    }
 }
 
 // MARK: - method

@@ -23,6 +23,8 @@
 		D6C35F0E243F3F4000DC8260 /* TopMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C35F0D243F3F4000DC8260 /* TopMainView.xib */; };
 		D6C35F10243F3FDB00DC8260 /* TopMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C35F0F243F3FDB00DC8260 /* TopMainViewCell.swift */; };
 		D6C35F12243F400B00DC8260 /* TopMainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C35F11243F400B00DC8260 /* TopMainViewCell.xib */; };
+		D6C35F15244062FD00DC8260 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C35F13244062FD00DC8260 /* NextViewController.swift */; };
+		D6C35F16244062FD00DC8260 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C35F14244062FD00DC8260 /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		D6C35F0D243F3F4000DC8260 /* TopMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainView.xib; sourceTree = "<group>"; };
 		D6C35F0F243F3FDB00DC8260 /* TopMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainViewCell.swift; sourceTree = "<group>"; };
 		D6C35F11243F400B00DC8260 /* TopMainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainViewCell.xib; sourceTree = "<group>"; };
+		D6C35F13244062FD00DC8260 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		D6C35F14244062FD00DC8260 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 		D6C35F05243F3D2C00DC8260 /* next */ = {
 			isa = PBXGroup;
 			children = (
+				D6C35F13244062FD00DC8260 /* NextViewController.swift */,
+				D6C35F14244062FD00DC8260 /* NextViewController.xib */,
 			);
 			path = next;
 			sourceTree = "<group>";
@@ -312,6 +318,7 @@
 				D6C35F12243F400B00DC8260 /* TopMainViewCell.xib in Resources */,
 				D6C35F0A243F3D4900DC8260 /* TopViewController.xib in Resources */,
 				D65DE70D243F3C7F006D089E /* LaunchScreen.storyboard in Resources */,
+				D6C35F16244062FD00DC8260 /* NextViewController.xib in Resources */,
 				D65DE70A243F3C7F006D089E /* Assets.xcassets in Resources */,
 				D65DE708243F3C7E006D089E /* Main.storyboard in Resources */,
 			);
@@ -442,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C35F09243F3D4900DC8260 /* TopViewController.swift in Sources */,
+				D6C35F15244062FD00DC8260 /* NextViewController.swift in Sources */,
 				D65DE701243F3C7D006D089E /* AppDelegate.swift in Sources */,
 				D6C35F10243F3FDB00DC8260 /* TopMainViewCell.swift in Sources */,
 				D65DE703243F3C7D006D089E /* SceneDelegate.swift in Sources */,
