@@ -18,7 +18,11 @@ extension TopMainViewCellDelegate {
 }
 // MARK: - Property
 class TopMainViewCell: BaseTableViewCell {
+    
     weak var delegate: TopMainViewCellDelegate? = nil
+    @IBOutlet var label: UILabel!
+    @IBOutlet var messageLabel: UILabel!
+    
 }
 
 // MARK: - Life cycle
